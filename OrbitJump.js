@@ -214,12 +214,5 @@ class Game {
         this.drawer.ctx.fillText('accelerate', offset, firstRow );
         this.drawer.ctx.fillText('turn prograde', offset, firstRow + rowHeight);
         this.drawer.ctx.fillText('turn retrograde', offset, firstRow + 2*rowHeight);
-
-        this.drawer.ctx.fillStyle = 'rgba(200,0,0,0.25)';
-        this.drawer.ctx.font = 'bold 72px sans';
-        this.drawer.ctx.textAlign = 'center';
-        this.drawer.ctx.fillText('God jul', this.drawer.canvas.width/2, this.drawer.canvas.height/2 - 72);
-        this.drawer.ctx.fillText('och', this.drawer.canvas.width/2, this.drawer.canvas.height/2);
-        this.drawer.ctx.fillText('gott nytt år!', this.drawer.canvas.width/2, this.drawer.canvas.height/2 + 72);
     }
 }
