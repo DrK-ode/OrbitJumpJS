@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang=en>
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            *{
+                margin: 0;
+            }
+            body{
+                width: 100vw;
+                height: 100vh;
+                background-color: black;
+            }
+            #mainCanvas{
+                cursor: none;
+                width: 100%;
+                height: 100%;
+            }
+            img{
+              display: none;
+            }
+        </style>
+    </head>
+    <body onload='main()'>
+      <img id='spaceBackground1' src='./img/space1.png'>
+      <img id='spaceBackground2' src='./img/space2.png'>
+      <img id='shipSprite' src='./img/ship.png'>
+      <img id='planet0Sprite' src='./img/planet_crystal_128x128.png'>
+      <img id='planet1Sprite' src='./img/planet_hot_128x128.png'>
+      <img id='planet2Sprite' src='./img/planet_icy_128x128.png'>
+      <img id='planet3Sprite' src='./img/planet_radiated_128x128.png'>
+      <img id='planet4Sprite' src='./img/planet_terrestrial_128x128.png'>
+      <canvas id='mainCanvas'></canvas>
+      <script src='./ExtraMath.js'></script>
+      <script src='./World.js'></script>
+      <script src='./Draw.js'></script>
+      <script src='./AnimatedBackground.js'></script>
+      <script src='./AnimatedSprite.js'></script>
+      <script src='./Solid.js'></script>
+      <script src='./Ship.js'></script>
+      <script src='./Planet.js'></script>
+      <script src='./OrbitJump.js'></script>
+    </body>
+</html>
